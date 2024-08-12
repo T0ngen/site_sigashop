@@ -75,7 +75,7 @@
     text-align: center;
     min-width: 170px; /* Минимальная ширина */
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
 }
 .btn_s:hover{
     transform: scale(1.1);
@@ -94,7 +94,7 @@
     min-width: 200px; /* Минимальная ширина */
     min-height: 40px;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
     cursor: pointer;
 }
 .btn_ss:hover{
@@ -142,7 +142,7 @@
     border-bottom: 1px solid black;
     width: 50px;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
 }
 
 .back-from-about:hover{
