@@ -1,0 +1,86 @@
+
+
+.main__text_container{
+    padding-top: 310px;
+    width: 90%;
+    padding-left: 134px;
+    
+}
+
+
+.main__text{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Wix Madefor Display", sans-serif;
+    color: #212395;
+    line-height: 71.92px;
+  }
+  
+
+.main__description{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.main__description{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #575757;
+    margin: 0;
+}
+.main__description2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #575757;
+}
+
+.desctiprions_cont{
+    padding-top: 35px;
+}
+
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_cont{
+    padding-top: 35px;
+
+    
+}
+
+.text_container{
+    width: 80%;
+}
+
+.btn_medium::after {
+    content: '➔';
+    margin-left: 8px;
+    font-size: 23px;
+    color: inherit;
+    width: 17px;
+    height: 22px;
+}
+
+.main_info_text{
+    margin: 0;
+    padding-left: 134px;
+    font-size: 20px;
+    color: #575757;
+    font-weight: 300;
+    
+}
+
+.main_info_cont{
+    padding-top: 135px;
+    padding-bottom: 130px;
+    /* padding-bottom: 2000px; */
+   
+    
+}
+
+

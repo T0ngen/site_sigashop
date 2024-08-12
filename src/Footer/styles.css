@@ -1,0 +1,53 @@
+.telegram_cont{
+    padding-top: 110px;
+    padding-left: 140px;
+}
+
+.telegram_btn{
+    padding: 5px 40px;
+    border: 2px solid #212395;
+    display: inline-flex;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+.telegram_btn:hover{
+    transform: scale(1.1);
+}
+
+.tg_bot__name{
+    font-weight: 500;
+    font-size: 30px;
+    color: #212395;
+    cursor: pointer;
+    
+}
+
+
+
+.all_rights{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.btn_delete_all {
+    
+    background-color: #fff;
+    
+    padding: 5px 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* добавим промежуток между кнопками */
+    color: grey;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 2px solid #E8E8E8;
+    transition: 0.5s ease;
+  }
+
+.btn_delete_all:hover{
+    transform: scale(1.1);
+}
+
+  

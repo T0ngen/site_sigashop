@@ -1,0 +1,17 @@
+.about-us-cont{
+    
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.back-about{
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-size: 30px;
+}
+
+.back-about:hover{
+    color: #212395;
+}
+

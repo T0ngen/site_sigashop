@@ -1,0 +1,170 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card_item {
+    flex: 0 1 calc(25% - 40px);
+    
+    border-radius: 25px;
+    padding: 16px;
+    
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card_item img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.card_item__info {
+    flex-grow: 1;
+  }
+  
+  
+
+.pagination button {
+    
+   
+    border: none;
+    border-radius: 4px;
+    color: #A8A8A8;
+    cursor: pointer;
+}
+
+
+
+
+.card_item__name{
+    font-size: 18px;
+    font-family: "Wix Madefor Display", sans-serif;
+    color: #212395;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.card_item__info{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.card_item__price{
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #575757;
+}
+/* Определяем общие стили для обеих кнопок */
+.btn_s {
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 170px; /* Минимальная ширина */
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn_s:hover{
+    transform: scale(1.1);
+}
+.btn_ss {
+    
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 200px; /* Минимальная ширина */
+    min-height: 40px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn_ss:hover{
+    transform: scale(1.1);
+}
+/* Стили для кнопки "Купить" */
+.btn_buy {
+    background-color: #212395;
+    color: #fff;
+    margin-top: 30px; /* Если требуется отдельный отступ сверху */
+}
+.btn_buy2 {
+    background-color: #fff;
+    color: #212395;
+    margin-top: 30px; /* Если требуется отдельный отступ сверху */
+    border: 2px solid #212395;
+}
+
+/* Стили для кнопки "Подробнее" */
+.btn_about {
+    background-color: #fff;
+    border: 1px solid #212395;
+    color: #212395;
+}
+
+.card_about_item{
+    
+    padding: 10px;
+    padding-top: 50px;
+    background-color: #E8E8E8;
+    border-radius: 25px;
+}
+
+.modal__title{
+    text-align: center;
+    padding-top: 30px;
+    color: #212395;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.back-from-about{
+    border-bottom: 1px solid black;
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.back-from-about:hover{
+    transform: scale(1.1);
+}
+
+
+.left_modal{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modaal_border{
+    border-bottom: 1px solid #9F9F9F;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.caregories-name-all{
+    font-family: "Montserrat", sans-serif !important;
+}
+
+
